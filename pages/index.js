@@ -1,6 +1,15 @@
 function Home () {
   return (
-    <h1>teste</h1>
+    <h1 
+      style={{ 
+        width: '100vw', 
+        height: '100vh', 
+        backgroundColor: 'orangered', 
+        color: 'purple' 
+      }}
+    >
+      Nunca faça deploy na sexta-feira
+    </h1>
   )
 }
 
