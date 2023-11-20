@@ -4,8 +4,10 @@ function Home () {
       style={{ 
         width: '100vw', 
         height: '100vh', 
-        backgroundColor: 'orangered', 
-        color: 'purple' 
+        color: 'purple',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
       }}
     >
       Nunca faça deploy na sexta-feira
